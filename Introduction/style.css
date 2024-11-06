@@ -1,11 +1,9 @@
-/* Reset margin and padding */
-* {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Basic styling for body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
@@ -15,7 +13,6 @@ body {
     min-height: 100vh;
 }
 
-/* Container styling */
 .container {
     max-width: 600px;
     width: 90%;
@@ -26,21 +23,18 @@ body {
     text-align: center;
 }
 
-/* Title styling */
 h1 {
     color: #333;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-/* Section title styling */
 h2 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 0.5rem;
 }
 
-/* Form container styling */
 .form-container {
     margin-top: 1.5rem;
     padding: 1rem;
@@ -48,7 +42,6 @@ h2 {
     border-radius: 5px;
 }
 
-/* Input styling */
 input[type="text"], input[type="number"] {
     width: 100%;
     padding: 0.75rem;
@@ -58,7 +51,6 @@ input[type="text"], input[type="number"] {
     font-size: 1rem;
 }
 
-/* Button styling */
 button {
     width: 100%;
     padding: 0.75rem;
@@ -75,7 +67,6 @@ button:hover {
     background-color: #2f88ac;
 }
 
-/* Book list styling */
 .book-list {
     list-style-type: none;
     margin-top: 1rem;
@@ -88,7 +79,6 @@ button:hover {
     border-bottom: 1px solid #ddd;
 }
 
-/* Responsive styling */
 @media (max-width: 600px) {
     .container {
         padding: 15px;
